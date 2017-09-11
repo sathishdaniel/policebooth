@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="sign up" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="enter your first name" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="enter your middle name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:text="enter your last name" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="enter your age" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:text="enter your gender" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_vertical|fill_horizontal"
+        android:text="enter your dob" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:text="enter your mail-id or mobile number" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="set a password" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="conform your password" />
+
+</LinearLayout>

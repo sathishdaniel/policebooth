@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<RelativeLayout>
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="85dp"
+    android:layout_marginTop="76dp"
+    android:text="You want to know the location of"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<RadioButton
+    android:id="@+id/radioButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/textView1"
+    android:layout_below="@+id/textView1"
+    android:layout_marginTop="14dp"
+    android:text="Policebooth" />
+
+<RadioButton
+    android:id="@+id/radioButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/radioButton1"
+    android:layout_below="@+id/radioButton1"
+    android:text="Ambulance" />
+
+<RadioButton
+    android:id="@+id/radioButton3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/radioButton2"
+    android:layout_below="@+id/radioButton2"
+    android:text="Hospital" />
+
+<RadioButton
+    android:id="@+id/radioButton4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/radioButton3"
+    android:layout_below="@+id/radioButton3"
+    android:text="Fire Service" />
+
